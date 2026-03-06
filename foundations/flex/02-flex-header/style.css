@@ -1,6 +1,11 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  /* next lines are changes */
+  padding: 8px;
 }
 
 .logo {
@@ -14,10 +19,10 @@
 ul {
   list-style-type: none;
    display: flex;
-
-   padding: 0;
+ padding: 0;
    margin: 0;
-   justify-content: space-evenly;
+   /* changes: */
+   gap: 8px;
 }
 
 a {
@@ -26,15 +31,5 @@ a {
   background: white;
   padding: 8px;
   text-decoration: none;
-    flex-grow: 1;
-  flex-basis: 200px;
-  justify-self:flex-start;
-
 }
 
-.flex-container {
-   display: flex;
- align-items: center;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-}
